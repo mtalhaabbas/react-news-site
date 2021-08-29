@@ -15,7 +15,7 @@ const Extra = () => {
       params: { q: "pakistan", lang: "en", page: news.page, page_size: "25" },
       headers: {
         "x-rapidapi-host": "free-news.p.rapidapi.com",
-        "x-rapidapi-key": "884f9315eemshfc17ca4d618877ap1a09aajsnf3bfa3f6d501",
+        "x-rapidapi-key": "Put your own api key",
       },
     };
 
