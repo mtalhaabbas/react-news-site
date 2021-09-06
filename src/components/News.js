@@ -1,7 +1,7 @@
 import React from "react";
 import Spinner from "./Spinner";
 import InfiniteScroll from "react-infinite-scroll-component";
-const Extra = () => {
+const News = () => {
   const [news, setnews] = React.useState({
     articles: [],
     totalResults: 0,
@@ -106,4 +106,4 @@ const Extra = () => {
   );
 };
 
-export default Extra;
+export default News;
